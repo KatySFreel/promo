@@ -1,0 +1,292 @@
+/*  Responsive  */
+/* Small: 576px - 767px */
+@media (min-width: 991px) {
+	.container {
+		max-width: 1340px;;
+	}
+	.menu__mob {
+		display: none;
+	}
+}
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+	.container {
+		max-width: 960px;
+	}	
+	.product {
+		width: 300px !important;
+	}
+	.meet__content {
+		background: #f8f8f8;
+		padding: 50px;
+		max-width: 448px;
+		/* min-height: 674px; */
+		position: absolute;
+		right: 35px;
+		color: #b45f4d;
+		font-weight: 400;
+		top: 98px;
+   }
+	.meet__img-2 {
+		position: absolute;
+		left: -83px;
+		z-index: 2;
+		bottom: -21px;
+		width: 45%;
+		height: 50%;
+	}
+	.subscribe__form-input {
+		width: 100%;
+	}
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+	.container {
+		max-width: 720px;
+	}
+	.promo__text {
+		font-size: 16px;
+	}
+	.menu__list {
+		display: none;
+	}
+	.logo__img {
+		margin: 0 auto;
+	}
+	.burger {
+		display: block;
+		margin-right: 77px;
+	}
+	.menu__mob {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #f6f4ec;
+		z-index: 10;
+		top: 112px;
+		left: 0px;
+		text-align: center;
+		padding: 20px;
+	}
+	.menu__item {
+		margin-bottom: 10px;
+	}
+	.offer__title {
+		font-size: 30px;
+	}
+	.offer__text {
+		font-size: 17px;
+	}
+	.products__title,
+	.insta__title {
+		font-size: 20px;
+	}
+	.shop__text {
+		font-size: 15px;
+	}
+	.shop__btn {
+		font-size: 16px;
+	}
+	.footer__content {
+		margin-bottom: 40px;
+	}
+	.footer__wrapper {
+		display: block;
+	}
+	.product {
+		width: 225px !important;
+	}	
+	.meet__img-2 {
+		left: 116px;
+	}
+	.meet__inner {
+		margin-left: -90px;
+	}
+	.meet__content {
+		right: 0px;
+	}
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+	.container {
+		max-width: 540px;
+	}
+	.product {
+		width: 249px !important;
+	}
+	.offer__title {
+		font-size: 28px;
+	}
+	.offer__text {
+		font-size: 16px;
+	}
+	.products__title {
+		font-size: 18px;
+	}
+	.shop__text {
+		font-size: 14px;
+		padding-right: 15px;
+	}
+	.shop__btn {
+		font-size: 14px;
+	}
+	.meet__content {
+		background: #f8f8f8;
+		padding: 50px;
+		max-width: 448px;
+		position: absolute;
+		right: 35px;
+		color: #b45f4d;
+		font-weight: 400;
+		top: 9px;
+	}
+	.meet__img-2 {
+		position: absolute;
+		left: 90px;
+		z-index: 1;
+		bottom: -117px;
+		width: 45%;
+		height: 50%;
+	}
+	.meet__text {
+		font-size: 16px;
+	}
+	.meet__title {
+		font-size: 25px;
+	}
+	.shop {
+		padding: 15px;
+	}
+	.shop__inner {
+		padding: 15px;
+		position: relative;
+	}
+	.shop__img {
+		width: 100%;
+	}
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+	.container {
+		padding: 0 15px;
+	}
+	.product {
+		width: 320px !important;
+	}
+	.menu__content {
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+	.promo__text {
+		font-size: 15px;
+	}
+	.offer__title {
+		font-size: 25px;
+		margin-bottom: 20px;
+		line-height: 50px;
+	}
+	.product__title {
+		font-size: 16px;
+	}
+	.product__prise {
+		font-size: 14px;
+	}	
+	.logo__img {
+		width: 130px;
+	}
+	.menu__mob {
+		top: 103px;
+	}
+	.subscribe__form-btn {
+		position: absolute;
+		right: 0px;
+		height: 40px;
+		padding: 10px;
+		font-size: 14px;
+	}
+	.subscribe__discription {
+		font-size: 14px;
+	}
+	.subscribe__discription:not(:last-child) {
+		margin-bottom: 8px;
+	}
+	.footer {
+		padding: 35px 10px;
+	}
+	.footer__info {
+		font-size: 13px;
+		margin-top: 50px;
+	}
+	.insta__title {
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 29px;
+	}
+	.offer__text {
+	margin: 40px 0px 15px;
+	}
+	.offer {
+		padding-bottom: 50px;
+	}
+	.meet__content {
+		padding: 20px;
+		right: 0; 
+		left: 0;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 340px) {
+	.container {
+		padding: 0px 15px;
+	}
+	.burger {
+		display: block;
+		margin-right: 24px;
+   }
+	.product {
+		width: 250px !important;
+	}
+	.logo__img {
+		width: 103px;
+		height: 45px;
+	}
+	.menu__mob {
+		top: 91px;
+	}
+	.promo__text {
+		font-size: 14px;
+	}
+	.shop__text {
+		line-height: 26px;
+	}
+	.offer__btn {
+		margin: 332px 0px 55px;
+		font-size: 14px;
+	}
+	.offer__content-btn {
+		font-size: 14px;
+	}
+	.meet__title {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.meet__text {
+		font-size: 14px;
+	}
+	.meet__content {
+		padding: 20px;
+		right: 0; 
+	}
+	.meet__link {
+		font-size: 14px;
+	}
+	.meet__img-2 {
+		bottom: -77px;
+		width: 45.9%;
+	}
+}
